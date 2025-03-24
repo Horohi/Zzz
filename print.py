@@ -19,5 +19,5 @@ class PrintMod(loader.Module):
 			out += ch
 			if ch not in [" ", "\n"]:
 				await message.edit(out+"\u2060")
-				await sleep(0.1)
+				await sleep(0.01)
 			
